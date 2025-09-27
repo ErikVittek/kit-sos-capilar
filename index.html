@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kit S.O.S Crescimento – Pressel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #fff; color: #333;
+      line-height: 1.6;
+    }
+
+    /* --- HEADER HERO --- */
+    header {
+      background-color: #d81b60;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      background: #FF0000;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+    header img {
+      width: 300px;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    /* --- BOTÕES CTA --- */
+    .cta {
+      display: inline-block;
+      width: 200px;
+      padding: 15px 25px;
+      margin: 20px auto;
+      font-size: 1.1rem;
+      text-align: center;
+      background: #FF0000;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #d81b60;
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+    }
+
+    section img {
+      max-width: 40%;
+      border-radius: 10px;
+      margin: 20px auto;
+      box-shadow: 0 3px 6px rgba(0,0,0,0);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: left; /* mantém alinhamento à esquerda */
+      display: inline-block; /* centraliza a lista */
+    }
+
+    ul li {
+      margin: 10px 0;
+      padding: 10px 15px; /* espaço interno para o texto */
+      padding-left: 30px; /* mantém espaço para o ✔ */
+      position: relative;
+      background-color: #ffe6ea; /* cor de fundo do item */
+      border-radius: 8px; /* cantos arredondados */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra suave */
+    }
+
+    ul li::before {
+      content: "";
+      color: #d81b60;
+      position: absolute;
+      left: 0;
+    }
+
+    .faq {
+      background: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      background: #eee;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    .depo-text {
+      font-weight: bold; /* deixa o texto em negrito */
+      background-color: #ffe6ea; /* mesma cor dos benefícios */
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: inline-block; /* mantém o texto centralizado */
+      margin-bottom: 20px;
+    }
+
+    /* --- GALERIA DE DEPOIMENTOS MAIORES E RESPONSIVOS --- */
+    .depoimentos-galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .depoimentos-galeria img {
+      width: 100%;
+      max-width: 400px; /* tamanho maior para destaque */
+      border-radius: 20px;
+      border: 2px solid #d81b60;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    }
+
+    /* --- VÍDEO RESPONSIVO --- */
+    .responsive-video {
+      position: relative;
+      padding-bottom: 56.25%; /* proporção 16:9 */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      margin: 20px auto;
+    }
+
+    .responsive-video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Responsividade para mobile */
+    @media (max-width: 600px) {
+      section img {
+        max-width: 80%;
+      }
+
+      .depoimentos-galeria img {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>Dermatologistas revelam a solução para queda e crescimento acelerado dos fios</h1>
+    <p>Descubra como o <strong>Kit S.O.S Crescimento</strong> está ajudando milhares de pessoas a recuperar a confiança</p>
+    <a href="#checkout" class="cta">Quero meu KIT agora</a>
+    <br>
+    <img src="https://i.imgur.com/fgbnWLp.png" alt="Kit S.O.S Crescimento">
+  </header>
+
+  <!-- PROBLEMA -->
+  <section>
+    <h2>Por que seus fios estão caindo?</h2>
+    <p>Estresse, uso de químicas, má alimentação e até desequilíbrios hormonais podem acelerar a queda capilar. Se você já percebeu falhas no couro cabeludo ou fios caindo no travesseiro, esse é um sinal de alerta.</p>
+    <img src="https://i.imgur.com/fgbnWLp.png" alt="Queda de cabelo">
+    <img src="https://i.imgur.com/DjBFzxd.jpeg" alt="Queda de cabelo">
+  </section>
+
+  <!-- SOLUÇÃO -->
+  <section>
+    <h2>A fórmula que acelera o crescimento</h2>
+    <p>O <strong>Kit S.O.S Crescimento</strong> combina ativos naturais como biotina, pantenol, óleo de rícino e extrato de bambu. Ele fortalece os fios da raiz às pontas, reduz a queda e estimula o crescimento saudável.</p>
+
+    <!-- VÍDEO DO YOUTUBE -->
+    <div class="responsive-video">
+      <iframe src="https://www.youtube.com/embed/XeoUGsyuTHY?si=XLO_LEhZltA2K3uu" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+        <a href="#checkout" class="cta">Quero meu Kit Agora</a>
+  </section>
+
+  <!-- BENEFÍCIOS -->
+  <section>
+    <h2>Benefícios do Kit</h2>
+    <ul>
+      <li>✔ Crescimento até 7x mais rápido</li>
+      <li>✔ Redução de até 95% na queda</li>
+      <li>✔ Fios mais espessos e volumosos</li>
+      <li>✔ Controle de oleosidade e caspa</li>
+      <li>✔ Resultados visíveis em poucas semanas</li>
+    </ul>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section>
+    <h2>Relatos Reais</h2>
+    <p class="depo-text">Veja os resultados de quem já usou o Kit S.O.S Crescimento:</p>
+
+    <div class="depoimentos-galeria">
+      <img src="https://i.imgur.com/eXytx5o.png" alt="Depoimento 1">
+      <img src="https://i.imgur.com/JXtEX3g.png" alt="Depoimento 2">
+      <img src="https://i.imgur.com/WElFO6G.png" alt="Depoimento 3">
+      <img src="https://i.imgur.com/cflswse.png" alt="Depoimento 4">
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <h2>Perguntas Frequentes</h2>
+    <p><strong>Em quanto tempo vejo resultados?</strong><br> Em média, entre 30 e 60 dias de uso contínuo.</p>
+    <p><strong>Serve para homens e mulheres?</strong><br> Sim, funciona em ambos
